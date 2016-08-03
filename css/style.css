@@ -1,0 +1,359 @@
+body{
+	width: 100%;
+	height: 100%;
+	font-family: calibri;
+}
+img{
+	width: auto;
+	zoom:0.8;
+}
+#bgImg{
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+}
+#title{
+    position: absolute;
+    left: 8.2291%;
+    top: 7.4%;
+    color: rgb(164,147,120);
+    font-size: 38px;
+}
+#headBorder{
+	position: absolute;
+	left: 8.2291%;
+	top: 13.5%;
+	z-index: 1115;
+}
+#userLevel{
+	position: absolute;
+	left: 14.27%;
+	top: 16.48%;
+}
+#levelNum{
+    font-size: 34px;
+    color: white;
+    margin-left: 7%;
+    margin-top: -18%;
+}
+#levelNum span{
+	margin-left: 5%;
+}
+#star{
+	position: absolute;
+	top: 17.9%;
+	left: 24.32%;
+}
+#main1{
+	position: absolute;
+	left: 8.2291%;
+	top: 38%;
+	width: 82.8125%;
+}
+#main2{
+	position: absolute;
+	left: 8.2291%;
+	top: 38%;
+	width: 82.8125%;
+}
+.underline{
+	width: 95%;
+
+	margin-left: 2%;
+}
+.levelstar{
+	margin-top: -3.8%;
+	z-index: 1001;
+}
+.levelstar1{
+    margin-left: 3px;
+    
+}
+.levelstar2{
+    margin-left: 7.7%;/*91/1950*/
+    position: relative;
+    z-index: 1000;
+ 
+}
+.levelstar3{
+    margin-left: 13.05%;/*190/1950*/
+    position: relative;
+    z-index: 1000;
+
+}
+.levelstar4{
+    margin-left: 14.15%;/*276/1950*/
+
+}
+.levelstar5{
+    margin-left: 17.97%;/*331/1950*/
+
+}
+.levelstar6{
+    margin-left: 20.7%;
+
+}	
+#plane{
+	z-index: 1002;
+	position: absolute;
+	top: 28%;
+	left: 9.5%;/*35.3-----46.3 大于3级时的范围 
+				9.5-------16   1级范围
+				19.5-------30   2级范围
+				33.5--------45.5  3级范围*/
+}
+#planeImg{
+	margin-left: 10%;
+}
+.lowvalue{
+    margin-top: -32%;
+    margin-left: 18px;
+    color: rgb(255,156,0);
+    font-size: 23px;
+}
+.lowlevel{
+	font-size: 20px;
+	margin-top: 5px;
+	margin-left: 1%;
+	color: rgb(255,164,56);
+}
+
+.levelstar22{
+    margin-left: 8.1%;/*91/1950*/
+}
+.levelstar33{
+    margin-left: 14.0%;/*/1950*/
+}
+.levelstar44{
+    margin-left: 15.0%;/*276/1950*/
+}
+.levelstar55{
+    margin-left: 18.8%;/*331/1950*/
+}
+.levelstar66{
+    margin-left: 22%;
+}
+.lowlevelnum{
+    font-size: 16px;
+    margin-left: 2%;
+    margin-top: 5px;
+    color: rgb(149,149,149);
+}
+.levelstar222{
+    margin-left: 9.9%;/*91/1950*/
+}
+.levelstar333{
+    margin-left: 14.3%;/*/1950*/
+}
+.levelstar444{
+    margin-left: 14.7%;/*276/1950*/
+}
+.levelstar555{
+    margin-left: 19%;/*331/1950*/
+}
+.levelstar666{
+    margin-left: 22%;
+}
+#strategy{
+    position: absolute;
+    left: 8.3%;
+    top: 63.185%;
+    font-size: 30px;
+    color: #f4dfb4;
+}
+#tabinfo{
+    position: absolute;
+    left:8.3%;
+    top: 70.185%;
+    font-size: 22px;
+    color: rgb(255,249,233);
+    width: 38.5%;
+}
+#tabinfo2{
+    position: absolute;
+    left:50%;
+    top: 70.185%;
+    font-size: 22px;
+    color: rgb(255,249,233);
+    width: 38.5%;
+}
+#tabinfo img,#tabinfo2 img{
+	zoom:0.61;
+}
+#table1{
+	width: 95%;
+	margin-top: -39%;
+	margin-left: 7%;
+}
+#table2{
+	width: 95%;
+	margin-top: -39%;
+	margin-left: 7%;
+}
+td{
+	height: 58px;
+}
+.addnum{
+	text-align: right;
+	color: rgb(253,224,156);
+}
+.ps{
+    font-size: 20px;
+}
+#headImg{
+    position: absolute;
+    left: 8.5291%;
+    top: 16.1%;
+    border-radius: 78px;
+    width: 78px;
+    height: 78px;
+    z-index: 1111;
+}
+#fastword{
+	color: rgb(255,156,0);
+	font-size: 16px;
+	margin-left: -2.3%;
+}
+#fasting{
+	margin-left: 17%;
+	margin-top: -3%;
+}
+.underImg{
+	width: 108%;
+}
+
+
+
+.levelstar2-1{
+    margin-left: 43px;
+    
+}
+.levelstar2-2{
+    margin-left: 7.5%;/*91/1950*/
+    position: relative;
+    z-index: 1000;
+ 
+}
+.levelstar2-3{
+    margin-left: 12.05%;/*190/1950*/
+    position: relative;
+    z-index: 1000;
+
+}
+.levelstar2-4{
+    margin-left: 13.15%;/*276/1950*/
+
+}
+.levelstar2-5{
+    margin-left: 16.97%;/*331/1950*/
+
+}
+.levelstar2-6{
+    margin-left: 18.7%;
+
+}	
+#levelstar2-11{
+	position: absolute;
+	left: 39px;
+}
+#levelstar2-22{
+    position: absolute;
+	margin-left: 14.2%;
+}
+#levelstar2-33{
+    position: absolute;
+	margin-left: 30.5%;/*/1950*/
+}
+#levelstar2-44{
+    position: absolute;
+	margin-left: 47.7%;
+}
+#levelstar2-55{
+    position: absolute;
+	margin-left: 68.8%;
+}
+#levelstar2-66{
+	position: absolute;
+    margin-left: 93.1%;
+}
+#levelstar2-111{
+	position: absolute;
+	left: 39px;
+	margin-top: 30px;
+}
+#levelstar2-222{
+    position: absolute;
+	margin-left: 13.5%;
+	margin-top: 30px;
+}
+#levelstar2-333{
+    position: absolute;
+	margin-left: 29.5%;/*/1950*/
+	margin-top: 30px;
+}
+#levelstar2-444{
+    position: absolute;
+	margin-left: 47%;
+	margin-top: 30px;
+}
+#levelstar2-555{
+    position: absolute;
+	margin-left: 68%;
+	margin-top: 30px;
+}
+#levelstar2-666{
+	position: absolute;
+    margin-left: 92.5%;
+    margin-top: 30px;
+}
+.underline{
+	width: 96%;
+	margin-left: 1%;
+}
+#level2-1{
+	width: 15.81%;
+	border: 1px solid #de1414;
+	position: absolute;
+	top: 0;
+	z-index: 100;
+}
+#level2-2{
+	width: 14.18%;
+	border: 1px solid #de5b14;
+	position: absolute;
+	top: 0;
+	left: 18%;
+	z-index: 100;
+}
+#level2-3{/*总长14.2*/
+	/*width: 1%;*/
+	border: 1px solid #f08507;
+	position: absolute;
+	top: 0;
+	left: 34.1%;
+}
+#level1{/*宽度0--9.5%*/
+	/*width: 9.5%;*/
+	border: 1px solid #de1414;
+	position: absolute;
+	top: 0;
+	left: 3.4%;
+	z-index: 100;
+}
+#level2{/*宽度0--15%*/
+	/*width: 15%;*/
+	border: 1px solid #de5b14;
+	position: absolute;
+	top: 0;
+	left: 15%;
+	z-index: 100;
+}
+#level3{/*总长15.6*/
+	/*width: 5.6%;*/
+	border: 1px solid #f08507;
+	position: absolute;
+	top: 0;
+	left: 32.5%;
+}

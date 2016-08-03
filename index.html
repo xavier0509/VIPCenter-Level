@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta name="format-detection" content="telephone=no">
+        <meta name="msapplication-tap-highlight" content="no">
+        <meta name="viewport" content="user-scalable=no, initial-scale=1, maximum-scale=1, minimum-scale=1, width=device-width">
+        <meta charset="utf-8">
+        <meta http-equiv="expires" content="0">
+        <meta http-equiv="pragma" content="no-cache">
+        <meta http-equiv="cache-control" content="no-cache">
+        <link rel="stylesheet" type="text/css" href="css/style.css">
+        <title></title>
+    </head>
+    <body>
+        <div id="deviceready">
+            <div ><img src="http://q.qlogo.cn/qqapp/101180898/377B623A84F2288F74581F41D8DBA5D1/100" id="headImg"></div>
+            <img src="img/bg.jpg" id="bgImg">
+            <div id="title">会员等级</div>
+            <div id="headBorder"><img src="img/headborder.png"></div>
+            <div id="userLevel">
+                <img src="img/level.png">
+                <div id="levelNum">Lv<span id="nameCount"></span></div>
+            </div>
+            <div id="star">
+                
+            </div>
+            <div id="plane">                   
+                <img src="img/info.png">
+                <div id="planeImg"><img src="img/plane.png"></div>                   
+                <div class="lowvalue">成长值&nbsp;&nbsp;&nbsp;<span id="lowvalue"></span></div>  
+            </div>
+            <div id="main1" ><!-- 小于4级的页面布局 -->   
+                <hr class="underline">
+                <div class="levelstar">
+                    <img src="img/1.png" class="levelstar1">
+                    <img src="img/2.png" class="levelstar2">
+                    <img src="img/3.png" class="levelstar3">
+                    <img src="img/4.png" class="levelstar4">
+                    <img src="img/5.png" class="levelstar5">
+                    <img src="img/6.png" class="levelstar6">
+                </div>               
+                <div class="lowlevel">
+                    <span class="levelstar11">Lv1</span>
+                    <span class="levelstar22">Lv2</span>
+                    <span class="levelstar33">Lv3</span>
+                    <span class="levelstar44">Lv4</span>
+                    <span class="levelstar55">Lv5</span>
+                    <span class="levelstar66">Lv6</span>
+                </div>
+                <div class="lowlevelnum">
+                    <span class="levelstar111">0</span>
+                    <span class="levelstar222">700</span>
+                    <span class="levelstar333">1600</span>
+                    <span class="levelstar444">2700</span>
+                    <span class="levelstar555">4000</span>
+                    <span class="levelstar666">5500</span>
+                </div>
+                <hr id="level1">
+                <hr id="level2">
+                <hr id="level3">
+            </div>
+            <div id="main2" style="display:none"><!-- 大于4级的页面布局 -->   
+                <hr class="underline2">
+                <div class="levelstar">
+                    <img src="img/1.png" class="levelstar2-1">
+                    <img src="img/2.png" class="levelstar2-2">
+                    <img src="img/3.png" class="levelstar2-3">
+                    <img src="img/4.png" class="levelstar2-4">
+                    <img src="img/5.png" class="levelstar2-5">
+                    <img src="img/6.png" class="levelstar2-6">
+                </div>               
+                <div class="lowlevel">
+                    <span id="levelstar2-11">Lv12</span>
+                    <span id="levelstar2-22">Lv22</span>
+                    <span id="levelstar2-33">Lv23</span>
+                    <span id="levelstar2-44">Lv42</span>
+                    <span id="levelstar2-55">Lv52</span>
+                    <span id="levelstar2-66">Lv62</span>
+                </div>
+                <div class="lowlevelnum">
+                    <span id="levelstar2-111">0</span>
+                    <span id="levelstar2-222">700</span>
+                    <span id="levelstar2-333">1600</span>
+                    <span id="levelstar2-444">2700</span>
+                    <span id="levelstar2-555">4000</span>
+                    <span id="levelstar2-666">5500</span>
+                </div>
+                <hr id="level2-1">
+                <hr id="level2-2">
+                <hr id="level2-3">
+            </div>
+            <div id="strategy"><img src="img/flag.png">成长攻略</div>
+            <div id="tabinfo"><img src="img/under.png" class="underImg">
+                <table id="table1" rules="none">
+                    <tr>
+                        <td>主页签到<span class="ps">(连续7天奖双倍)</span></td><td class="addnum">+5</td>                        
+                    </tr>
+                    <tr>
+                        <td>升级</td><td class="addnum">+50</td>                      
+                    </tr>
+                    <tr>
+                        <td class="noline">首次登陆</td><td class="addnum">+100</td>
+                    </tr>
+                </table>
+            </div>
+            <div id="tabinfo2"><img src="img/under.png" class="underImg">
+                <table id="table2" rules="none">
+                    <tr>
+                        <td>主页签到</td><td class="addnum">+5</td>                      
+                    </tr>
+                    <tr>
+                        <td>系统升级</td><td class="addnum">+50</td>                       
+                    </tr>
+                    <tr>
+                        <td class="noline">打开系统内容应用<span class="ps">(每日上限20)</span></td>
+                        <td class="addnum">+100</td>
+                    </tr>
+                </table>
+            </div>
+        </div>
+		<script type="text/javascript" src="donothashme.js"></script>
+        <script type="text/javascript" src="cordova.js"></script>
+        <script type="text/javascript" src="js/index.js"></script>
+    </body>
+</html>
